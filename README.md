@@ -1,14 +1,14 @@
-# Random-User-App
+# Contact App
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev-random-user-app.netlify.app//)
 
 ### Description
 
-Project aims to create a FireContact App.
+Project aims to create a Contact App.
 
 ### Visualization of the Website
 
-![image](https://github.com/Sekunev/Random-User-App/blob/main/Animation.gif)
+![image](https://github.com/Sekunev/contact-app/blob/main/Animation.gif)
 
 ### Project Skeleton
 
