@@ -20,6 +20,7 @@ function App() {
     if (info.id) {
       UpdateUser(info);
     } else {
+      info.gender || ToastifySuccess("Cinsiyet bölümünü boş bıraktınız");
       AddUser(info);
     }
     ToastifySuccess("Başarılı");

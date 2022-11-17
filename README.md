@@ -40,4 +40,4 @@ SOLUTION
 
 ### Used in this project
 
-👉 I mastered ReactJS, firebase-database, Tail-Wind, react-toastify, Animated Icons features in this project. You can see the visual representation of the website above.
+👉 I mastered ReactJS, firebase-database, TailWind, react-toastify, Animated Icons features in this project. You can see the visual representation of the website above.

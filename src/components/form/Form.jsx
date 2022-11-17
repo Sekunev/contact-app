@@ -5,7 +5,7 @@ const Form = ({ info, setInfo, hanleSubmit, isAdd }) => {
     e.preventDefault();
     const { name, value } = e.target;
     setInfo({ ...info, [name]: value });
-    console.log(info);
+    // console.log(info);
   };
 
   return (
@@ -23,6 +23,7 @@ const Form = ({ info, setInfo, hanleSubmit, isAdd }) => {
           <div className="form-group mb-6 relative flex items-center text-gray-400 focus-within:text-gray-600">
             <i className="fa-solid fa-user absolute ml-3"></i>
             <input
+              required
               onChange={handleChange}
               type="text"
               className="form-control block  w-full
@@ -50,6 +51,7 @@ const Form = ({ info, setInfo, hanleSubmit, isAdd }) => {
             <input
               onChange={handleChange}
               type="phone"
+              required
               className="form-control block
   w-full
   py-2
@@ -92,6 +94,7 @@ focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
               aria-label="Default select example"
               name="gender"
               value={info.gender}
+              required
             >
               <option selected="Gender">Gender</option>
               <option value="Male">Male</option>
